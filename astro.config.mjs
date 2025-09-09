@@ -6,19 +6,17 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			title: 'Alaska Fishing',
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'Spicies',
 					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
+						{ label: 'King (Chinook) Salmon', slug: 'species/king-chinook-salmon-fishing-alaska' },
+						{ label: 'Sockeye (Red) Salmon', slug: 'species/sockeye-red-salmon-fishing-alaska' },
+						{ label: 'Coho (Silver) Salmon', slug: 'species/coho-silver-salmon-fishing-alaska' },
+						
+						
 					],
-				},
-				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
 				},
 			],
 		}),
