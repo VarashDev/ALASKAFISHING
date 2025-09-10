@@ -14,7 +14,12 @@ export default defineConfig({
 						{ label: 'King (Chinook) Salmon', slug: 'species/king-chinook-salmon-fishing-alaska' },
 						{ label: 'Sockeye (Red) Salmon', slug: 'species/sockeye-red-salmon-fishing-alaska' },
 						{ label: 'Coho (Silver) Salmon', slug: 'species/coho-silver-salmon-fishing-alaska' },
-						
+						{ label: 'Pink (Humpback) Salmon', slug: 'species/pink-humpback-salmon-fishing-alaska' },
+						{ label: 'Chum (Dog) Salmon', slug: 'species/chum-dog-salmon-fishing-alaska' },
+						{ label: 'Halibut', slug: 'species/halibut-fishing-alaska' },
+						{ label: 'Trout', slug: 'species/trout-fishing-alaska' },
+						{ label: 'Arctic Grayling', slug: 'species/arctic-grayling-fishing-alaska' },
+						{ label: 'Northern Pike', slug: 'species/northern-pike-fishing-alaska' },
 						
 					],
 				},
