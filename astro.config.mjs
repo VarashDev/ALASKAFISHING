@@ -20,7 +20,13 @@ export default defineConfig({
 						{ label: 'Trout', slug: 'species/trout-fishing-alaska' },
 						{ label: 'Arctic Grayling', slug: 'species/arctic-grayling-fishing-alaska' },
 						{ label: 'Northern Pike', slug: 'species/northern-pike-fishing-alaska' },
-						
+					],
+				},
+				{
+					label: 'Services',
+					items: [
+						{ label: 'Guided Fishing Charters', slug: 'services/guided-fishing-charters' },
+						{ label: 'Fly-In Fishing Trips', slug: 'services/fly-in-fishing-trips' },
 					],
 				},
 			],
